@@ -2,105 +2,63 @@
 
 # Awesome Kubernetes for DevOps Engineers 🚀
 
-A curated, practical list of Kubernetes guides, hands-on labs, real-world troubleshooting playbooks, GitOps workflows, and production operations patterns — specifically for **DevOps Engineers** and **SREs**.
+A curated, practical list of Kubernetes guides, labs, troubleshooting playbooks, GitOps workflows, and real-world production patterns — specifically for DevOps Engineers & SREs.
 
-This collection complements the full Kubernetes learning path on **TheDevOpsTooling.com**.  
-Start here → **The Proven Kubernetes Tutorial (2025 Edition)**  
+Start here → **The Proven Kubernetes Tutorial (Full Learning Path)**  
 https://thedevopstooling.com/kubernetes-tutorial/
 
 ---
 
 ## 🧠 Core Kubernetes Fundamentals
 
-- Understand how Kubernetes maintains desired state across a distributed cluster in  
-  **Kubernetes Architecture Explained**  
-  https://thedevopstooling.com/kubernetes-architecture-explained/
-
-- Learn how API Server, etcd, Scheduler, and Controller Manager coordinate orchestration in  
-  **Kubernetes Control Plane Deep Dive**  
-  https://thedevopstooling.com/kubernetes-control-plane/
-
-- See how kubelet, container runtime, and kube-proxy run container workloads in  
-  **Kubernetes Worker Node Components**  
-  https://thedevopstooling.com/kubernetes-worker-node-components/
-
-- Understand what happens from Pending → Running → CrashLoopBackOff → Terminated in  
-  **Kubernetes Pod Lifecycle Guide**  
-  https://thedevopstooling.com/kubernetes-pod-lifecycle/
+- [Kubernetes Architecture Explained](https://thedevopstooling.com/kubernetes-architecture-explained/) — Master vs Worker nodes, desired state & reconciliation.
+- [Kubernetes Control Plane Deep Dive](https://thedevopstooling.com/kubernetes-control-plane/) — API Server, etcd, Scheduler & Controller Manager explained clearly.
+- [Kubernetes Worker Node Components](https://thedevopstooling.com/kubernetes-worker-node-components/) — kubelet, container runtime & kube-proxy orchestration flow.
+- [Kubernetes Pod Lifecycle Guide](https://thedevopstooling.com/kubernetes-pod-lifecycle/) — Pending → Running → CrashLoopBackOff → Terminated behavior.
 
 ---
 
 ## 🚀 Hands-On Kubernetes Labs
 
-- Deploy your first container workload step-by-step using  
-  **Your First Kubernetes Pod Tutorial**  
-  https://thedevopstooling.com/your-first-kubernetes-pod/
-
-- Learn how Services route traffic inside a cluster using  
-  **Kubernetes Services & Networking**  
-  https://thedevopstooling.com/master-kubernetes-services/
-
-- Manage multi-team, multi-environment clusters using  
-  **Kubernetes Namespaces & RBAC Basics**  
-  https://thedevopstooling.com/kubernetes-namespaces/
+- [Your First Kubernetes Pod](https://thedevopstooling.com/your-first-kubernetes-pod/) — Create, deploy, inspect & debug your first Pod step-by-step.
+- [Kubernetes Services & Networking](https://thedevopstooling.com/master-kubernetes-services/) — ClusterIP, NodePort, LoadBalancer & DNS routing explained.
+- [Kubernetes Namespaces & RBAC Basics](https://thedevopstooling.com/kubernetes-namespaces/) — Resource isolation & role-based access patterns.
 
 ---
 
-## 🔥 Kubernetes Troubleshooting (Bookmark This)
+## 🔥 Troubleshooting Playbooks (Bookmark These)
 
-- Fix continuous container restarts with  
-  **CrashLoopBackOff Debug Guide**  
-  https://thedevopstooling.com/kubernetes-crashloopbackoff-fix/
-
-- Debug memory pressure and optimize pod resource usage using  
-  **OOMKilled Debug & Fix Guide**  
-  https://thedevopstooling.com/oomkilled-kubernetes-debug-fix-memory-issues/
-
-- Resolve registry authentication and image resolution issues with  
-  **ImagePullBackOff Troubleshooting Guide**  
-  https://thedevopstooling.com/kubernetes-imagepullbackoff-fix/
-
-- Diagnose and resolve scheduling failures caused by CPU resource constraints using  
-  **FailedScheduling / Insufficient CPU Fix**  
-  https://thedevopstooling.com/fix-nodes-are-available-insufficient-cpu/
+- [CrashLoopBackOff Fix](https://thedevopstooling.com/kubernetes-crashloopbackoff-fix/) — Root-cause checklist for container startup failures.
+- [OOMKilled Debug & Fix Guide](https://thedevopstooling.com/oomkilled-kubernetes-debug-fix-memory-issues/) — Resolve memory pressure and pod eviction.
+- [ImagePullBackOff Fix](https://thedevopstooling.com/kubernetes-imagepullbackoff-fix/) — Debug image registry, tags & authentication issues.
+- [FailedScheduling / Insufficient CPU Fix](https://thedevopstooling.com/fix-nodes-are-available-insufficient-cpu/) — Understand scheduling failures & node resource pressure.
 
 ---
 
 ## 🔗 GitOps & Deployment Strategies
 
-- Safely reverse and restore deployments using  
-  **ArgoCD Rollback Deployment Tutorial**  
-  https://thedevopstooling.com/argocd-rollback-deployment/
-
-- Compare progressive delivery approaches:  
-  **Canary Release Strategy**  
-  https://thedevopstooling.com/canary-releases-explained/  
-  **Blue-Green Deployment Strategy**  
-  https://thedevopstooling.com/blue-green-deployment-strategy/
-
-- Adopt version-controlled cluster state with  
-  **GitOps CI/CD for Kubernetes**  
-  https://thedevopstooling.com/gitops-with-kubernetes/
+- [GitOps with Kubernetes (ArgoCD)](https://thedevopstooling.com/gitops-with-kubernetes/) — Declarative delivery & drift correction.
+- [ArgoCD Rollback Deployment](https://thedevopstooling.com/argocd-rollback-deployment/) — Safely reverse deployments with audit trails.
+- [Canary Releases Explained](https://thedevopstooling.com/canary-releases-explained/) — Traffic-shifting progressive delivery.
+- [Blue-Green Deployment Strategy](https://thedevopstooling.com/blue-green-deployment-strategy/) — Zero-downtime infrastructure upgrades.
 
 ---
 
 ## 🤝 Contributing
 
-Pull Requests are welcome!  
-Please submit only **high-quality and practical Kubernetes resources** used in real-world engineering environments.  
-Theory-only posts, outdated repos, or commercial vendor spam will be declined.
+Pull Requests are welcome.  
+Only submit **practical, real-world Kubernetes resources** (not theory-only or outdated links).
 
 ---
 
-## ⭐ Support the Project
+## ⭐ Support
 
-If this helped you:
-
-- ⭐ **Star** the repository
-- 👫 Share with your DevOps / Platform Engineering team
-- 🔔 Follow updates at https://thedevopstooling.com
+If this repo helped you:  
+**Star** the repository ⭐  
+**Share** with your team  
+**Follow updates** → https://thedevopstooling.com
 
 ---
 
-### Recommended GitHub Topics (add these in repo settings)
+### Recommended GitHub Topics (add in repo Settings → Edit Description)
 
