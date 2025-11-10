@@ -13,7 +13,8 @@ https://thedevopstooling.com/kubernetes-tutorial/
 ## 🧠 Core Kubernetes Fundamentals
 
 - Understand the overall cluster design and how Kubernetes maintains desired state using  
-  **Kubernetes Architecture Explained**: https://thedevopstooling.com/kubernetes-architecture-explained/
+  **Kubernetes Architecture Explained**:
+  https://thedevopstooling.com/kubernetes-architecture-explained/
 
 - Learn how Kubernetes makes scheduling and reconciliation decisions in  
   **Kubernetes Control Plane Deep Dive**: https://thedevopstooling.com/kubernetes-control-plane/
